@@ -10,12 +10,20 @@ let dice2 = document.getElementsByClassName("dice2")[0];
 
 dice2.setAttribute("src", "img/images/dice" + randomNumber2 + ".png");
 
+//select elements
 let textWinner = document.getElementById("title-winner"); //select h1
 const btn = document.getElementsByClassName("btn")[0]; //select btn
 let sectionDice = document.getElementById("dices"); //select section dices
 sectionDice.style.display = "none"; // hide dices
 
+let player1 = document.getElementsByClassName("player1")[0];
+let player2 = document.getElementsByClassName("player2")[0];
+
+
+
 btn.addEventListener("click", winner); //on click the function is activeted
+player1.innerHTML = prompt("insert name player 1");
+player2.innerHTML = prompt("insert name player 2");
 
 //function for text winner
 function winner() {
