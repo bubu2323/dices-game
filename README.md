@@ -17,7 +17,7 @@ This generates random dice combinations and shows the winner.
 
 ### Links
 
-- Live Site URL: [https://bubu2323.github.io/Dice-Exercise/](https://bubu2323.github.io/Dice-Exercise/)
+- Live Site URL: [https://bubu2323.github.io/dices-game/](https://bubu2323.github.io/dices-game/)
 
 ## My process
 
