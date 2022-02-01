@@ -20,6 +20,7 @@ btn.addEventListener("click", winner); //on click the function is activeted
 //function for text winner
 function winner() {
   sectionDice.style.display = "flex"; //show dices when function run
+  btn.innerHTML = "roll the dice again";
   if (randomNumber1 > randomNumber2) {
     textWinner.innerHTML = "Player 1 <span>Wins!</span>";
   } else if (randomNumber1 == randomNumber2) {
