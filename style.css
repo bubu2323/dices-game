@@ -40,18 +40,25 @@ footer {
   margin-top: 8rem;
 }
 .git {
+  margin-left: 0.2rem;
   text-decoration: none;
   color: #523140;
+  font-family: 'Pacifico', cursive;
 }
-.git:hover{
-  color: #FF99C8;
+.git:hover {
+  color: #ff99c8;
 }
 /**********
 Typography
 ***********/
-.player {
+.player,.player1,.player2 {
   font-size: 2.5rem;
   color: #af6988;
+}
+.player1,
+.player2 {
+  font-family: "Pacifico", cursive;
+  color: #8b395e;
 }
 span {
   color: #af6988;
@@ -63,10 +70,10 @@ Button
   -webkit-border-radius: 17;
   -moz-border-radius: 17;
   border-radius: 17px;
-  text-shadow: 2px 2px 0px #666666;
-  font-family: Arial;
-  color: #ffffff;
+  color: #000000;
   font-size: 20px;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: 900;
   background: #fec8c3;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
