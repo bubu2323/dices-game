@@ -1,0 +1,88 @@
+/*RESET STYLESHEET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+body {
+  min-height: 100vh;
+  background-color: #e4c1f9;
+  font-family: "Bebas Neue", cursive;
+}
+.container {
+  margin-top: 3rem;
+  text-align: center;
+}
+/*************
+Sections
+*************/
+.container {
+  margin: 2rem auto;
+  width: 70%;
+}
+/*title*/
+#title-winner {
+  color: #523140;
+  font-size: 6.5rem;
+  margin-bottom: 10rem;
+}
+/*dices*/
+#dices {
+  display: flex;
+  justify-content: space-evenly;
+}
+/*footer*/
+footer {
+  margin-top: 8rem;
+}
+.git {
+  text-decoration: none;
+  color: #523140;
+}
+.git:hover{
+  color: #FF99C8;
+}
+/**********
+Typography
+***********/
+.player {
+  font-size: 2.5rem;
+  color: #af6988;
+}
+span {
+  color: #af6988;
+}
+/***********
+Button
+***********/
+.btn {
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  text-shadow: 2px 2px 0px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #fec8c3;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #af6988;
+  text-decoration: none;
+}
+.button {
+  margin-top: 3rem;
+}
+
+/*******
+Images
+********/
+.dice-img {
+  max-width: 90%;
+}
